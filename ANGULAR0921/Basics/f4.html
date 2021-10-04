@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <script>
+            
+
+        function change()
+        {
+            x=10; // global variable
+          // document.m1.src="media/ArrowRight.png";  // old method
+            var imgDirection=document.getElementById("m1");
+            imgDirection.src="media/ArrowRight.png";
+        }
+        function revoke()
+        {
+          window.document.m1.src="media/ArrowLeft.png";            
+        }
+        function Get()
+        {
+            var elem=document.getElementById("txtName");
+            elem.value="SCOTT";
+        }
+    </script>
+    </head>
+    <body>
+        <h1>Welcome to Web Apps using Angular</h1>
+        <img id="m1" name="m1" src="media/ArrowLeft.png" onmouseover="change()" onmouseout="revoke()">
+        <form id="frm">
+            <input type="text" id="txtName" name="txtName">
+            <input type="button" id="btnDemo" name="btnDemo" value="Click" onclick="Get()">
+        </form>
+    </body>
+</html>

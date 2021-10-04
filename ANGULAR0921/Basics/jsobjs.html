@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <h1>Welcome to Web Apps using Angular</h1>
+        <script>
+            function DemoObjects()
+            {
+                var Product={Id:1,Title:"Laptop",Price:25000,Remarks:"New"}; // literal notation
+                Product.SellingPrice=27000; // on-fly
+                alert(Product.Title);
+                alert(Product.SellingPrice);
+            }
+
+            function Employee(Id,Name) // class
+            {
+                this.Id=Id;
+                this.Name=Name;
+            }
+
+            function CreateEmployee() // method to create instance of Employee
+            {
+                var Employee1=new Employee(101,"SCOTT");
+                alert(Employee1.Name);
+
+                var Employee2=new Employee(101,"SMITH");
+                alert(Employee2.Name);
+
+            }
+        </script>
+        <input type="button" id="b1" value="Show" onclick="DemoObjects()" >
+        <input type="button" id="b2" value="Class Create" onclick="CreateEmployee()" >
+
+    </body>
+</html>
