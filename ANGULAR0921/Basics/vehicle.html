@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <script src="prot.js"></script>
+    </head>
+    <body>
+        <script>
+            var testVehicle = new Vehicle(2, false);  
+            Vehicle.prototype.color = "red";  
+            var testColor = testVehicle.color;
+            alert(testColor);
+
+
+            var vehicle2=new Vehicle();
+            vehicle2.wheels=4;
+            vehicle2.engine=true;
+            vehicle2.color="Gray";
+
+            alert(vehicle2.color);
+        </script>
+    </body>
+</html>
+
+
+
