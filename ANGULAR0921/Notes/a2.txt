@@ -1,0 +1,55 @@
+Web Applications Basics/PreRequisites
+
+- HTML 
+   - Markup Language and no programming support
+   - All Browsers(clients) understand only HTML for presentation
+   - Markup --> in the form of tags <> every tag is an instruction to browser
+	<h1> it is telling browser to display content in particular font and size
+				|
+    using HTML alone only static content can be shown to user with minimum navigation 	functionality but today a web application means 99% dynamic behaviour is required.
+
+- JS ( JavaScript )
+
+   - Scripting Language for HTML
+   - Programming support for web
+   - All browsers have their own scripting engines to support Javascript
+	I.E/Edge --> Chakra engine to support JS
+	Chrome --> Javascript engine to support JS
+	Browser --> ...... to support JS
+
+    JS is an interpreted translator
+
+   - Initially JS is very complex to write but starting from es 2015 it became slightly 	simple to build by adding OOP concepts	
+	es --> stands for ecmascript which is open standard spec for JS
+
+    Ajax* --> Asynchronous Javascript and Xml
+
+- CSS
+
+  - all about presentation
+  - Cascading Style Sheets
+-------------------------------------------------------------------------------------
+
+Where do we program all these ??
+
+we use IDE's for programming --> Integrated Development Environments
+
+There are so many paid and free IDE's available and most commonly recommended as well as used today for JS and Angular is VS Code**.
+
+Alternatively Visual Studio, Eclipse can be used.
+
+VS Code -- most light weight and free open source IDE
+	-- very powerfull and supports most popular programming languages/environments
+
+code.visualstudio.com
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+JS - Javascript
+
+JQuery - most widely used JS library at one point of time
+
+As JS demand increased Enterprise level usage of JS couldn't be fulfilled with jQuery.
+
+				JQuery
+				  |
+Many JS libraries were introduced like backbonejs, embar js to simplify javascript
+				|
+AngularJS - pattern based client side programming - MVC - Declarative approach
+			|
+		most widely used and successfully implement JS library 
+			|
+ major concerns in AngularJS 1.x are found when implemented in Enterprise Modal of application
+ many 3rd party packages were required to complete AngularJS for requirements
+			|
+Microsoft + Google ---> ANGULAR 2.0 ( it is completely new )
+			   |
+			ANGULAR 12
+Almost all the requirements for C/S scripting with Enterprise implementation is available in ANGULAR.
+
+
+

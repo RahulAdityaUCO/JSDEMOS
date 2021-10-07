@@ -1,0 +1,69 @@
+JS Type System			JS Objects
+--------------			-----------
+
+JS is weak typed system ( A good programming language should have strong type system )
+	(Intentionally)
+	|
+Data Type System
+
+- To declare a variable in JS we use var & let keywords.
+  let is available starting from ES5/6 ( JS latest versions )
+	Ex:
+		var x;
+		let name;
+	both var and let doesn't specify the datatype.
+
+- Without declaring a variable also we can directly store values.
+		stname="SCOTT"; // correct
+  In such cases these variables are called global variables
+	Preferred is use var or let to declare variables.
+
+- we can store any type of value in a variable and whenever we store value JS will implicitly change the variable datatype.
+		x=10; // integer
+		x="SCOTT"; // string
+		x=true; // boolean
+
+- Developer has to take care while declaring and using variables so that they hold appropriate data otherwise we will not get any errors but outputs will be wrong
+
+- Handling expressions
+	a=10; // integer
+	b="20"; // string
+	c=a+parseInt(b); // 30
+
+- let 
+    function f1()
+    {
+	let x=10;
+	....
+	.....
+	....
+	if ( ... )
+	{
+	  let y=100;
+	  ......
+	}
+	else
+	{
+	  ....
+	}
+    }
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		

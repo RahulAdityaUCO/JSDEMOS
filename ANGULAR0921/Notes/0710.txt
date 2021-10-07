@@ -1,0 +1,18 @@
+User ---> .TS file ----> Tsc ---es5-----> .JS
+		(TypeScript Compiler)
+
+DOM -- for reading/writing elements
+
+
+Is it called dictionary? {address:'4567 Ameerpreet', email:'kiran@gmail.com', city:'Hyderabad'}
+
+class Employee
+{
+   string address;
+   string email;
+   string city;
+}
+
+Employee obj=new Employee();
+obj.address="..."
+......
