@@ -1,0 +1,63 @@
+Angular Applications
+--------------------
+
+- JS
+
+- TS
+
+- FW's
+
+Angular is one of the preferred framework for building web applications.
+
+Latest version of Angular is 12.
+
+In order to create Angular Project we have multiple ways and the most recommended way is to use Angular CLI.
+
+Command Line Interface
+
+We need to install CLI using
+
+npm install -g @angular/cli
+	|
+we can use angular commands to create project and also project content throughtout the development time.
+
+angular.io -- official website for angular
+
+
+- npm install -g @angular/cli
+- create one folder say angdemo		md angdemo
+- cd angdemo
+- ng new angbasics
+- cd angbasics
+- code .    (or)
+- ng serve             compiles and loads our project in localhost:/4200
+
+http://localhost:4200
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

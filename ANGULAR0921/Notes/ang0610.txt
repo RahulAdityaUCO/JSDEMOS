@@ -1,0 +1,44 @@
+- JS
+   has all capabilities but complex to write for big applications
+   more source - more complex
+
+- Instead of using frameworks/libraries for writing JS code we can use TypeScript to write our code in more strong typed style or in other words in more high level language style and build enterprise wide applications in a simple manner.
+
+- JS
+
+- TS
+
+- FW's - Angular  React VueJs
+
+Get started with TypeScript:
+
+typescriptlang.org
+
+1) Install nodejs	
+	nodejs.org						node
+		|
+	npm package manager --> nodejs package manager		npm
+
+Note:- for typescript and angular we need nodejs as many packages required can be installed using nodejs package manager and also fw's like angular has requirement of nodejs during development for their debugging and other scenarios.
+
+2) npm install -g typescript						tsc
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
